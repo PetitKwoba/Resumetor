@@ -1,0 +1,424 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-size: unset;
+	font-weight: unset;
+	background: #585c68;
+	font-family: "Poppins", Helvetica, sans-serif;
+	margin: 0;
+	line-height: unset;
+	color: unset;
+}
+
+h1 {
+	margin: unset;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 47px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+h2 {
+	margin: unset;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+li {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 15px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: unset;
+}
+
+.main {
+	display: flex;
+}
+
+/* Panel */
+.mont {
+	font-family: "Montserrat", sans-serif;
+}
+
+.pop {
+	font-family: "Poppins", sans-serif;
+}
+
+.opens {
+	font-family: "Open Sans", sans-serif;
+}
+
+.monos {
+	font-family: monospace, sans-serif
+}
+
+#left {
+	background-color: #8E44AD;
+	line-height: 1em;
+}
+
+#left * {
+	color: #eee;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#left h3,
+#left h4 {
+	color: #fff;
+	margin-top: 5px;
+}
+
+#left .btn {
+	color: #fff;
+}
+
+#left .btn.btn-default {
+	color: #666;
+}
+
+
+#panel {
+	max-width: 300px;
+	padding: 5%;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#titleBox * {
+	font-size: 2em;
+}
+
+#customTemplateOptions {
+	display: none;
+}
+
+
+/* Panel Style Ends here */
+
+
+
+
+
+
+.bold {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+.title p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px
+}
+
+.semi-bold {
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 17px;
+
+}
+
+.resume {
+	width: 595px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+	background-color: #FFFFFF;
+}
+
+.resume_profile {
+	height: 265px;
+	width: 288px;
+	background: #1F306E;
+	border-radius: 0px 200px 200px 100px;
+	padding: 65px 20px;
+}
+
+.resume-content {
+	padding: 30px 30px 30px 40px;
+}
+
+.resume-content-2 {
+	padding: 30px 30px 30px 2px;
+}
+
+.title {
+	margin-bottom: 10px;
+}
+
+.resume_contact ul {
+	list-style-type: square;
+	padding-left: 12px;
+}
+
+.resume_responsibilities ul {
+	padding-left: 12px;
+}
+
+.resume_education ul li,
+.resume_experience ul li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.grid ul {
+	list-style: inside;
+}
+
+.resume_item {
+	margin-bottom: 30px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+/* Customization Option */
+
+/* Font Toggling */
+
+#page.montserrat * {
+	font-family: "Montserrat", sans-serif;
+}
+
+#page.poppins * {
+	font-family: "Poppins", sans-serif;
+}
+
+#page.openSans * {
+	font-family: "Open Sans", sans-serif;
+}
+
+#page.monospace * {
+	font-family: monospace, sans-serif
+}
+
+/* Case Toggling */
+.title.uppercase {
+	text-transform: uppercase;
+}
+
+/* List/Bullet Toggling */
+
+ul.nobullet {
+	list-style: none;
+}
+
+ul.disc {
+	list-style: disc;
+	margin-left: 0px;
+	padding-left: 12px;
+}
+
+ul.circle {
+	list-style: circle;
+	margin-left: 0px;
+	padding-left: 12px;
+}
+
+ul.square {
+	list-style: square;
+	margin-left: 0px;
+	padding-left: 12px;
+}
+
+ul.dash {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+ul.dash li {
+	padding-left: 20px;
+	text-indent: -1em;
+}
+
+ul.dash li:before {
+	content: "-";
+	padding-right: 10px;
+}
+
+ul.decimal {
+	list-style: decimal;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+ul.upper-roman {
+	list-style: upper-roman;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+ul.lower-roman {
+	list-style: lower-roman;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+ul.upper-alpha {
+	list-style: upper-alpha;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+ul.lower-alpha {
+	list-style: lower-alpha;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+
+.corner {
+	border-radius: 0px;
+}
+
+.toggle-button {
+	display: inline-block;
+	float: right;
+}
+
+.toggle-option {
+	display: inline-block;
+	padding: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.toggle-option {
+	background-color: #222;
+}
+
+.toggle-option.selected {
+	background-color: #E74C3C;
+}
+
+
+
+
+.custom-button {
+	display: inline-block;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.custom-button {
+	background-color: #8E44AD;
+}
+
+.custom-button.selected {
+	background-color: #E74C3C;
+}
+
+
+
+.btn-group {
+	display: inline-block;
+	padding: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.btn-violet {
+	background-color: #8E44AD;
+}
+
+.btn-teal {
+	background-color: #16a085;
+}
+
+
+
+kbd {
+	padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #666;
+}
+
+.button-add,
+.button-print {
+	padding: 5px 10px;
+	width: auto;
+}
+
+.dropdown-toggle a {
+	width: auto;
+	padding: 5px 10px;
+}
+
+.no-print {
+	display: none;
+}
+
+
+.navbar {
+	max-width: 60%;
+	margin: 0 auto;
+	color: white;
+	background-color: #1F306E;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar div {
+	color: white;
+}
+
+
+.nav-wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.dropup {
+	background-color: #28A745;
+}
+
+@media screen and (max-width: 720px) {
+	.navbar {
+		max-width: 100%;
+		margin: 0 auto;
+		color: white;
+		background-color: #1F306E;
+	}
+
+	.nav-wrap {
+		display: flex;
+		width: 100%;
+		margin: 0 auto;
+	}
+}

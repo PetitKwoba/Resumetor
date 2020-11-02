@@ -1,0 +1,18 @@
+
+
+@media print{
+    .no-print, .no-print * { display: none !important; }
+    .bottom-navbar, .bottom-navbar * { display: none !important;}
+    .main{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .resume{
+        width: 595px;
+        height: auto;
+        display: flex;
+        margin: 50px auto;
+        background-color: #FFFFFF;
+        padding: 59px 20px 30px 30px;
+    }
+}

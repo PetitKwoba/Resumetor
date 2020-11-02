@@ -1,0 +1,66 @@
+.button-add,
+.button-print {
+	padding: 5px 10px;
+	width: auto;
+}
+
+.no-print {
+	display: none;
+}
+
+.robo {
+	font-family: "Roboto", sans-serif;
+}
+
+.cur {
+	font-family: cursive, sans-serif;
+}
+
+.ubun {
+	font-family: "Ubun", sans-serif;
+}
+
+.monos {
+	font-family: monospace, sans-serif
+}
+
+.navbar {
+	max-width: 60%;
+	margin: 0 auto;
+	color: white;
+	background-color: #1F306E;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar div {
+	color: white;
+}
+
+.nav-wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.dropup {
+	background-color: #28A745;
+}
+
+@media screen and (max-width: 720px) {
+	.navbar {
+		max-width: 100%;
+		margin: 0 auto;
+		color: white;
+		background-color: #1F306E;
+	}
+
+	.nav-wrap {
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
